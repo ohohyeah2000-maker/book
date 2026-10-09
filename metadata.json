@@ -1,0 +1,6 @@
+{
+  "name": "늘푸른 도서관 - 도서 예약 웹앱",
+  "description": "Google Apps Script API와 실시간 통신하는 산뜻한 파스텔 라이트 테마 도서 예약 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

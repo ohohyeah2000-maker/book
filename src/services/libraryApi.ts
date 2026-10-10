@@ -2,6 +2,7 @@ import { Book, ReservationPayload, ApiResponse, ReservationRecord } from '../typ
 import { INITIAL_BOOKS } from '../data/mockBooks';
 
 export const DEFAULT_GAS_ENDPOINT =
+  (import.meta.env.VITE_GAS_ENDPOINT as string | undefined)?.trim() ||
   'https://script.google.com/macros/s/AKfycbz3hCAHx_vVnc56ivjIsEEC7Sq9pl_c9p4Mu7AmRr-O5jIwJ3d8CKVeOIYsE0UtmapM8w/exec';
 
 const STORAGE_ENDPOINT_KEY = 'evergreen_library_gas_endpoint';
